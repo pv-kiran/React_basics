@@ -1,8 +1,8 @@
 import React from 'react'
 
-function BookList(props) {
+function BookList({title , author , imgSrc }) {
 
-  const {title , author , imgSrc } = props.book; 
+//   const {title , author , imgSrc } = props.book; 
 
   return (
     <article className='bookContainer'>
