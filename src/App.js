@@ -16,14 +16,14 @@ function App() {
       imgSrc: `https://m.media-amazon.com/images/I/71aCBltKcqL._AC_UY327_FMwebp_QL65_.jpg`
     }
   ]  
-  const name = ['Kiran' , 'Arun']
-  const newName = name.map((name) => {
-    return <h1>{name}</h1>
-  })
-  console.log(newName);
+ 
   return (
     <React.Fragment>
-      <BookList > {newName} </BookList>
+        {
+          books.map(book => {
+            return <BookList book = {book}></BookList>
+          })
+        }
     </React.Fragment>
     
   );
