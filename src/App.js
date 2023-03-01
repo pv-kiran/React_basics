@@ -1,24 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import BookList from './APPtwo';
+
 
 function App() {
+  const myBook = {
+    title: `World’s Best Inspirational Books to Change Your Life` ,
+    author: `Joseph Murphy Dale Carnegie, Napoleon Hill` ,
+    imgSrc: `https://m.media-amazon.com/images/I/81BfYDO0kSL._AC_UY327_FMwebp_QL65_.jpg`
+  }
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BookList {...myBook}>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci, inventore?</p>
+    </BookList>
   );
 }
 
