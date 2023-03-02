@@ -1,5 +1,6 @@
 import './App.css';
 import React from 'react';
+import ShortCircuitComplex from './Use-Effect/ShortCircuitComplex';
 
 // import ErrorExample from './Use-state/ErrorExample';
 // import UseState from './Use-state/UseState';
@@ -11,6 +12,8 @@ import React from 'react';
 // import UseEffectCleanup from './Use-Effect/UseEffectCleanup';
 // import UseEffectFetch from './Use-Effect/UseEffectFetch';
 // import ConditionalRendering from './Use-Effect/ConditionalRendering';
+// import ShortCiruit from './Use-Effect/ShortCiruit';
+
 
 
 
@@ -29,6 +32,8 @@ function App() {
         {/* <UseEffectCleanup></UseEffectCleanup> */}
         {/* <UseEffectFetch></UseEffectFetch> */}
         {/* <ConditionalRendering></ConditionalRendering> */}
+        {/* <ShortCiruit></ShortCiruit> */}
+        <ShortCircuitComplex></ShortCircuitComplex>
       </div>
     )
 }

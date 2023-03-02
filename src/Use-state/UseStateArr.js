@@ -9,7 +9,6 @@ function UseStateArr() {
       { id: 4, name: 'anna' },
     ];
 
-    // const [clearShow , setClearShow] = useState(true)
     
     const [people , setPeople] = useState(data);
 
