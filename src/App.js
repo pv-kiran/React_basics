@@ -1,10 +1,19 @@
 import './App.css';
 import React from 'react';
-import UseStateCoounter from './Use-state/UseStateCoounter';
+
 // import ErrorExample from './Use-state/ErrorExample';
 // import UseState from './Use-state/UseState';
 // import UseStateArr from './Use-state/UseStateArr';
 // import UseStateObject from './Use-state/UseStateObject';
+// import UseStateCoounter from './Use-state/UseStateCoounter';
+
+// import UseEffect from './Use-Effect/UseEffect';
+// import UseEffectCleanup from './Use-Effect/UseEffectCleanup';
+// import UseEffectFetch from './Use-Effect/UseEffectFetch';
+// import ConditionalRendering from './Use-Effect/ConditionalRendering';
+
+
+
 
 
 function App() {
@@ -15,7 +24,11 @@ function App() {
         {/* <UseState></UseState> */}
         {/* <UseStateArr></UseStateArr> */}
         {/* <UseStateObject></UseStateObject> */}
-        <UseStateCoounter></UseStateCoounter>
+        {/* <UseStateCoounter></UseStateCoounter> */}
+        {/* <UseEffect></UseEffect> */}
+        {/* <UseEffectCleanup></UseEffectCleanup> */}
+        {/* <UseEffectFetch></UseEffectFetch> */}
+        {/* <ConditionalRendering></ConditionalRendering> */}
       </div>
     )
 }

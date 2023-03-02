@@ -117,6 +117,17 @@ p {
   color: var(--clr-grey-5);
 }
 
+
+.user-container {
+  border: 1px gray solid;
+}
+
+.user-container img {
+  width: 10rem;
+  height: 10rem;
+}
+
+
 @media screen and (min-width: 800px) {
   h1 {
     font-size: 4rem;
