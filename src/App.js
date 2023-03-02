@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react';
-import ShortCircuitComplex from './Use-Effect/ShortCircuitComplex';
+import MultipleInputs from './Forms/MultipleInputs';
 
 // import ErrorExample from './Use-state/ErrorExample';
 // import UseState from './Use-state/UseState';
@@ -13,6 +13,10 @@ import ShortCircuitComplex from './Use-Effect/ShortCircuitComplex';
 // import UseEffectFetch from './Use-Effect/UseEffectFetch';
 // import ConditionalRendering from './Use-Effect/ConditionalRendering';
 // import ShortCiruit from './Use-Effect/ShortCiruit';
+// import ShortCircuitComplex from './Use-Effect/ShortCircuitComplex';
+// import ControlledInputs from './Forms/ControlledInputs';
+
+
 
 
 
@@ -33,7 +37,9 @@ function App() {
         {/* <UseEffectFetch></UseEffectFetch> */}
         {/* <ConditionalRendering></ConditionalRendering> */}
         {/* <ShortCiruit></ShortCiruit> */}
-        <ShortCircuitComplex></ShortCircuitComplex>
+        {/* <ShortCircuitComplex></ShortCircuitComplex> */}
+        {/* <ControlledInputs></ControlledInputs> */}
+        <MultipleInputs></MultipleInputs>
       </div>
     )
 }
