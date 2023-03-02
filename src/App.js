@@ -1,6 +1,7 @@
 import './App.css';
 import React from 'react';
-import UseRef from './UseRef/UseRef';
+import UseReducer from './UseReducer/UseReducer';
+
 
 // import ErrorExample from './Use-state/ErrorExample';
 // import UseState from './Use-state/UseState';
@@ -16,6 +17,10 @@ import UseRef from './UseRef/UseRef';
 // import ShortCircuitComplex from './Use-Effect/ShortCircuitComplex';
 // import ControlledInputs from './Forms/ControlledInputs';
 // import MultipleInputs from './Forms/MultipleInputs';
+// import UseRef from './UseRef/UseRef';
+// import Setup from './UseReducer/Setup';
+
+
 
 
 
@@ -41,7 +46,9 @@ function App() {
         {/* <ShortCircuitComplex></ShortCircuitComplex> */}
         {/* <ControlledInputs></ControlledInputs> */}
         {/* <MultipleInputs></MultipleInputs> */}
-        <UseRef></UseRef>
+        {/* <UseRef></UseRef> */}
+        {/* <Setup></Setup> */}
+        <UseReducer></UseReducer>
       </div>
     )
 }
