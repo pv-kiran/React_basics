@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react';
-import UseReducer from './UseReducer/UseReducer';
+import UseContext from './PropDrilling/UseContext';
 
 
 // import ErrorExample from './Use-state/ErrorExample';
@@ -19,6 +19,8 @@ import UseReducer from './UseReducer/UseReducer';
 // import MultipleInputs from './Forms/MultipleInputs';
 // import UseRef from './UseRef/UseRef';
 // import Setup from './UseReducer/Setup';
+// import UseReducer from './UseReducer/UseReducer';
+// import PropDrilling from './PropDrilling/PropDrilling';
 
 
 
@@ -48,7 +50,9 @@ function App() {
         {/* <MultipleInputs></MultipleInputs> */}
         {/* <UseRef></UseRef> */}
         {/* <Setup></Setup> */}
-        <UseReducer></UseReducer>
+        {/* <UseReducer></UseReducer> */}
+        {/* <PropDrilling></PropDrilling> */}
+        <UseContext></UseContext>
       </div>
     )
 }

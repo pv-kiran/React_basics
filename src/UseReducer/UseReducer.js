@@ -41,7 +41,6 @@ const reducer = (state , action) => {
        modalContent: 'Item removed'
      }
   }
-
   throw new Error('No action type founded');
 }
 
