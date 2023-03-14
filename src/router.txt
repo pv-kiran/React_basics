@@ -1,0 +1,15 @@
+<Routes>
+           <Route path='/' element={<Router></Router>}></Route>
+           <Route path='/home' element={<Home></Home>}></Route>
+           <Route path='/about' element={<About></About>}></Route>
+           {/* <Route path='/books' element={<BookList></BookList>}></Route>
+           <Route path='/books/:id' element={<Book></Book>}></Route>
+           <Route path='/books/new' element={<NewBook></NewBook>}></Route> */}
+           {/* ...... NESTING OF ROUTES ......... */}
+          //  <Route path='/books' element={<Booklayout></Booklayout>}>
+          //     <Route index  element={<BookList></BookList>}></Route>
+          //     <Route path=':id' element={<Book></Book>}></Route>
+          //     <Route path='new' element={<NewBook></NewBook>}></Route>
+          //  </Route>
+          //  <Route path='*' element={<NotFound></NotFound>}></Route>
+        // </Routes> 

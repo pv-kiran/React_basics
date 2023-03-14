@@ -1,59 +1,23 @@
 import './App.css';
 import React from 'react';
-import UseContext from './PropDrilling/UseContext';
-
-
-// import ErrorExample from './Use-state/ErrorExample';
-// import UseState from './Use-state/UseState';
-// import UseStateArr from './Use-state/UseStateArr';
-// import UseStateObject from './Use-state/UseStateObject';
-// import UseStateCoounter from './Use-state/UseStateCoounter';
-
-// import UseEffect from './Use-Effect/UseEffect';
-// import UseEffectCleanup from './Use-Effect/UseEffectCleanup';
-// import UseEffectFetch from './Use-Effect/UseEffectFetch';
-// import ConditionalRendering from './Use-Effect/ConditionalRendering';
-// import ShortCiruit from './Use-Effect/ShortCiruit';
-// import ShortCircuitComplex from './Use-Effect/ShortCircuitComplex';
-// import ControlledInputs from './Forms/ControlledInputs';
-// import MultipleInputs from './Forms/MultipleInputs';
-// import UseRef from './UseRef/UseRef';
-// import Setup from './UseReducer/Setup';
-// import UseReducer from './UseReducer/UseReducer';
-// import PropDrilling from './PropDrilling/PropDrilling';
-
-
-
-
-
-
-
-
+ import UseState from './Use-state/UseState';
+// import { Route, Routes } from 'react-router-dom';
+// import Router from './Router/Router';
+// import Home from './Router/Home';
+// import About from './Router/About';
+// import BookList from './Router/BookList';
+// import Book from './Router/Book';
+// import NewBook from './Router/NewBook';
+// import NotFound from './Router/NotFound';
+// import Booklayout from './Router/Booklayout';
 
 
 function App() {
     
     return (
-      <div className='container'>
-        {/* <ErrorExample></ErrorExample> */}
-        {/* <UseState></UseState> */}
-        {/* <UseStateArr></UseStateArr> */}
-        {/* <UseStateObject></UseStateObject> */}
-        {/* <UseStateCoounter></UseStateCoounter> */}
-        {/* <UseEffect></UseEffect> */}
-        {/* <UseEffectCleanup></UseEffectCleanup> */}
-        {/* <UseEffectFetch></UseEffectFetch> */}
-        {/* <ConditionalRendering></ConditionalRendering> */}
-        {/* <ShortCiruit></ShortCiruit> */}
-        {/* <ShortCircuitComplex></ShortCircuitComplex> */}
-        {/* <ControlledInputs></ControlledInputs> */}
-        {/* <MultipleInputs></MultipleInputs> */}
-        {/* <UseRef></UseRef> */}
-        {/* <Setup></Setup> */}
-        {/* <UseReducer></UseReducer> */}
-        {/* <PropDrilling></PropDrilling> */}
-        <UseContext></UseContext>
-      </div>
+      <React.Fragment>
+        <UseState></UseState>
+      </React.Fragment>
     )
 }
 
@@ -73,7 +37,62 @@ export default App;
 
 
 
+{/* <ErrorExample></ErrorExample> */}
+        {/* <UseState></UseState> */}
+        {/* <UseStateArr></UseStateArr> */}
+        {/* <UseStateObject></UseStateObject> */}
+        {/* <UseStateCoounter></UseStateCoounter> */}
+        {/* <UseEffect></UseEffect> */}
+        {/* <UseEffectCleanup></UseEffectCleanup> */}
+        {/* <UseEffectFetch></UseEffectFetch> */}
+        {/* <ConditionalRendering></ConditionalRendering> */}
+        {/* <ShortCiruit></ShortCiruit> */}
+        {/* <ShortCircuitComplex></ShortCircuitComplex> */}
+        {/* <ControlledInputs></ControlledInputs> */}
+        {/* <MultipleInputs></MultipleInputs> */}
+        {/* <UseRef></UseRef> */}
+        {/* <Setup></Setup> */}
+        {/* <UseReducer></UseReducer> */}
+        {/* <PropDrilling></PropDrilling> */}
+        {/* <UseContext></UseContext> */}
+        {/* <CustomHooks></CustomHooks> */}
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        // import ErrorExample from './Use-state/ErrorExample';
+// import UseState from './Use-state/UseState';
+// import UseStateArr from './Use-state/UseStateArr';
+// import UseStateObject from './Use-state/UseStateObject';
+// import UseStateCoounter from './Use-state/UseStateCoounter';
+
+// import UseEffect from './Use-Effect/UseEffect';
+// import UseEffectCleanup from './Use-Effect/UseEffectCleanup';
+// import UseEffectFetch from './Use-Effect/UseEffectFetch';
+// import ConditionalRendering from './Use-Effect/ConditionalRendering';
+// import ShortCiruit from './Use-Effect/ShortCiruit';
+// import ShortCircuitComplex from './Use-Effect/ShortCircuitComplex';
+// import ControlledInputs from './Forms/ControlledInputs';
+// import MultipleInputs from './Forms/MultipleInputs';
+// import UseRef from './UseRef/UseRef';
+// import Setup from './UseReducer/Setup';
+// import UseReducer from './UseReducer/UseReducer';
+// import PropDrilling from './PropDrilling/PropDrilling';
+// import UseContext from './PropDrilling/UseContext';
+// import CustomHooks from './CustomHooks/CustomHooks';
 
 
 

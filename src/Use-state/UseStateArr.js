@@ -18,7 +18,6 @@ function UseStateArr() {
              return people ;
            }
        })
-
        setPeople(newPeople);
     }
 

@@ -7,7 +7,6 @@ function ControlledInputs() {
 
   const [people, setPeople] = useState([]);
   
-
   const handleSubmit = (e) => {
       e.preventDefault();
       const id = new Date().getMilliseconds().toString();
