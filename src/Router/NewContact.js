@@ -1,10 +1,12 @@
 import React from 'react'
-import { Link, useParams } from 'react-router-dom'
-function Contact() {
-  const {id} = useParams();
+// import { Link, useOutletContext } from 'react-router-dom'
+
+
+function NewContact() {
+//   const obj = useOutletContext();
   return (
     <React.Fragment>
-         {/* <ul>
+          {/* <ul>
             <li>
               <Link to={'/contact/1'}>Contact 1</Link>
             </li>
@@ -14,10 +16,11 @@ function Contact() {
             <li>
               <Link to={'/contact/new'}>Contact New</Link>
             </li>
-         </ul> */}
-         <div>Contact {id}</div>
+          </ul> */}
+         <div>NewContact</div>
     </React.Fragment>
+    
   )
 }
 
-export default Contact
+export default NewContact

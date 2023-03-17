@@ -1,22 +1,69 @@
 import './App.css';
 import React from 'react';
- import UseState from './Use-state/UseState';
-// import { Route, Routes } from 'react-router-dom';
-// import Router from './Router/Router';
-// import Home from './Router/Home';
-// import About from './Router/About';
-// import BookList from './Router/BookList';
-// import Book from './Router/Book';
-// import NewBook from './Router/NewBook';
-// import NotFound from './Router/NotFound';
-// import Booklayout from './Router/Booklayout';
+
+import { Routes , Route, useRoutes  } from 'react-router-dom';
+import Home from './Router/Home';
+import About from './Router/About';
+import ContactList from './Router/ContactList';
+import Router from './Router/Router';
+import Contact from './Router/Contact';
+import NewContact from './Router/NewContact';
+import NotFound from './Router/NotFound';
+import ContactLayout from './Router/ContactLayout';
+
 
 
 function App() {
+
+    let element = useRoutes([
+      {
+        path:'/',
+        element: <Home></Home>
+      } ,
+      {
+        path:'/about',
+        element: <About></About>
+      } ,
+      {
+        path:'/contact',
+        element: <ContactLayout></ContactLayout> ,
+        children: [
+          {
+             index:true ,
+             element:<ContactList></ContactList>
+          } ,
+          {
+             path: ':id' ,
+             element: <Contact></Contact>
+          } ,
+          {
+             path: 'new' ,
+             element: <NewContact></NewContact>
+          }
+        ]
+      }
+    ])
     
     return (
       <React.Fragment>
-        <UseState></UseState>
+        {/* <UseState></UseState> */}
+        {/* <UseReducer></UseReducer>  */}
+        {/* <CustomHooks></CustomHooks> */}
+        <Router></Router>
+        {element}
+        {/* <Routes> */}
+          {/* <Route path='/' element={<Home></Home>}></Route>
+          <Route path='/about' element={<About></About>}></Route>
+          <Route path='/contact' element={<ContactLayout></ContactLayout>}> 
+            <Route index element={<ContactList></ContactList>}></Route>
+            <Route path=':id' element={<Contact></Contact>}></Route>
+            <Route path='new' element={<NewContact></NewContact>}></Route>
+          </Route> */}
+          {/* <Route path='/contact' element={<ContactList></ContactList>}></Route>
+          <Route path='/contact/:id' element={<Contact></Contact>}></Route>
+          <Route path='/contact/new' element={<NewContact></NewContact>}></Route> */}
+          {/* <Route path='*' element={<NotFound></NotFound>}></Route> */}
+        {/* </Routes> */}
       </React.Fragment>
     )
 }
@@ -62,7 +109,9 @@ export default App;
 
 
 
-
+// import UseState from './Use-state/UseState';
+// import UseReducer from './UseReducer/UseReducer';
+// import CustomHooks from './CustomHooks/CustomHooks';
 
 
 

@@ -1,27 +1,20 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-// import { Routes , Route } from 'react-router-dom'
-
 function Router() {
   return (
-    <div>
-        <nav>
-          <ul>
+    <nav>
+        <ul>
             <li>
-              <Link to='/'>Router</Link>
+               <Link to={'/'}>Home</Link> 
             </li>
             <li>
-              <Link to='/home'>Home</Link>
+               <Link to={'/about'}>About</Link> 
             </li>
             <li>
-              <Link to='/about'>About</Link>
+               <Link to={'/contact'}>Contact List</Link> 
             </li>
-            <li>
-              <Link to='/books'>Books</Link>
-            </li>
-          </ul>
-        </nav>
-    </div>
+        </ul>
+    </nav>
   )
 }
 
